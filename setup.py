@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-import os
+import pathlib
 
 
 requires = [
@@ -8,9 +8,7 @@ requires = [
 
 
 def read(filename):
-    fpath = os.path.join(os.path.dirname(os.path.abspath(__file__)), filename)
-    with open(fpath) as f:
-        return f.read()
+    return (pathlib.Path(__file__).parent / filename).read_text()
 
 
 setup(

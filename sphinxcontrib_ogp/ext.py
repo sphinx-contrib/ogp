@@ -1,7 +1,7 @@
 from docutils import nodes
 from sphinx import addnodes
 from urllib.parse import urljoin
-from . import __versoin__
+from . import __version__
 
 
 class Visitor:
@@ -91,7 +91,7 @@ def setup(app):
     app.add_config_value('og_twitter_site', None, 'html')
     app.connect('html-page-context', html_page_context)
     return {
-        'version': __versoin__,
+        'version': __version__,
         'parallel_read_safe': True,
         'parallel_write_safe': True,
     }
