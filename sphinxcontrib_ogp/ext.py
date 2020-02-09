@@ -1,3 +1,7 @@
+"""
+Author: Takayuki Shimizukawa @ Sphinx-users.jp
+License: BSD License
+"""
 from docutils import nodes
 from sphinx import addnodes
 from urllib.parse import urljoin

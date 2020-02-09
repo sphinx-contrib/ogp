@@ -17,7 +17,7 @@ setup(
     use_scm_version=True,
     packages=find_packages(),
     url='https://github.com/sphinx-contrib/ogp',
-    license='Apache Software License',
+    license='BSD License',
     author='shimizukawa',
     author_email='shimizukawa@gmail.com',
     description='Sphinx OGP feature for html builder',
@@ -26,7 +26,7 @@ setup(
     python_requires=">=3.5",
     classifiers=[
         'Development Status :: 4 - Beta',
-        'License :: OSI Approved :: Apache Software License',
+        'License :: OSI Approved :: BSD License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',

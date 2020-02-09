@@ -34,5 +34,4 @@ This product is tested with:
 
 License
 =======
-Apache Software License
-
+BSD License

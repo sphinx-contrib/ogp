@@ -1,3 +1,7 @@
+"""
+Author: Takayuki Shimizukawa @ Sphinx-users.jp
+License: BSD License
+"""
 from pkg_resources import get_distribution, DistributionNotFound
 try:
     __version__ = get_distribution(__name__).version
